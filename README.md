@@ -106,7 +106,7 @@ python3 verify_signature.py
 ```
 Перевірка виконується для підписаного зображення `example_signed_melon.jpg` з використанням відкритого ключа з `keys/public.pem`.
 
-У файлі verify_signature.py за замовчуванням встановлено:
+У файлі verify_signature.py за замовчуванням встановлено такі шляхи:
 ```python
 verify_image_signature(
     image_path="test_photos/example_signed_melon.jpg",
